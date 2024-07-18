@@ -78,7 +78,8 @@ class j5 {
                     case 3: 
                 // System.out.println("\nhow much money you want to deposit : ");
                 //     money = input.nextLong();  
-                    p1.check_bal();
+                    long bal =  p1.check_bal();
+                   System.out.print(bal);
                     break;
                 case 0:
                     System.out.println("Exit");
