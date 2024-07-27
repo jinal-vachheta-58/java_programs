@@ -14,5 +14,7 @@ class j7 {
         } else {
             System.out.println("odd");
         }
+        
+        input.close();
     }
 }
