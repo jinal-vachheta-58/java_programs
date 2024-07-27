@@ -89,6 +89,7 @@ class j5 {
             }
 
         }while(ch != 0);
+        input.close();
     }
     
 }
