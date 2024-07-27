@@ -95,6 +95,6 @@ class student {
          }
 
       }
-      // tem.out.println(highest_grade_s)
+      input.close();
    }
 }
