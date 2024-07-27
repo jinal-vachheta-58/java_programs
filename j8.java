@@ -35,5 +35,7 @@ class j8 {
                 System.out.println("sun");
                 break;
         }
+        
+        input.close();
     }
 }
