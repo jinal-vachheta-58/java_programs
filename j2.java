@@ -24,8 +24,7 @@ class j2{
         a = input.nextFloat();
         System.out.println("\nenter b : ");
         b = input.nextFloat();
-        // int a = Integer.parseInt(args[0]) ;
-        // int b = Integer.parseInt(args[1]) ;
+
         j2 obj = new j2();
         do{
             System.out.println("\n1. perimeter\n2. area\nEnter your choice : ");
@@ -50,6 +49,7 @@ class j2{
             }
 
         }while(ch != 0);
+        input.close();
     }
 
 }
