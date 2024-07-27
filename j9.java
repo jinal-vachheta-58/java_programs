@@ -1,3 +1,7 @@
+/*
+ multiplication table 
+ */
+
 import java.util.Scanner;
 
 class j9 {
@@ -12,5 +16,6 @@ class j9 {
             System.out.println(number + " x " + i + " = " + (number * i));
         }
 
+        input.close();
     }
 }
