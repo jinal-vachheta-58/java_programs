@@ -24,5 +24,7 @@ class person{
         Scanner input = new Scanner(System.in);
         person p1 = new person("jinal",18,'f');
         p1.getdata();
+        input.close();
+        
     }
 }
