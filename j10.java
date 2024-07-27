@@ -1,3 +1,7 @@
+/*
+ factorial of given number
+ */
+
 import java.util.Scanner;
 
 class j10 {
@@ -17,5 +21,6 @@ class j10 {
         // Output the factorial
         System.out.println("Factorial of " + number + " is: " + factorial);
 
+        scanner.close();
     }
 }
