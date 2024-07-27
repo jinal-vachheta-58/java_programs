@@ -1,7 +1,6 @@
 // 1. Declare variables of different data types (int, double, boolean, char) and perform various
 // arithmetic operations on them.
 
-
 import java.util.Scanner;
 class j1{
     public int add(int a,int b)
@@ -71,6 +70,7 @@ class j1{
             }
 
         }while(ch != 0);
+        input.close();
     }
 
 }
