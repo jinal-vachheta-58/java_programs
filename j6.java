@@ -43,6 +43,7 @@ class circle {
             }
 
         }while(ch != 0);
+        input.close();
     
     }    
 }
