@@ -51,7 +51,9 @@ class j3{
             }
 
         }while(ch != 0);
+        input.close();
     }
+
 
 }
 
